@@ -10,8 +10,6 @@ app.use('/product', require('./routes/product'))
 app.use('/users',require('./routes/user'))
 app.use('/blog',require('./routes/blog'))
 
-
-
 Port = 9000
 
 app.listen(Port, () => {
